@@ -1,7 +1,3 @@
-//-----------------------------------------------------------------------------
-// Copyright 2021, Ed Keenan, all rights reserved.
-//----------------------------------------------------------------------------- 
-
 #ifndef HOT_NODE_H
 #define HOT_NODE_H
 
@@ -15,7 +11,6 @@ public:
 	HotNode& operator = (HotNode& r) = delete;
 	~HotNode() = default;
 
-	// You CANNOT add additional data to this class
 	HotNode		*pNext;
 	HotNode		*pPrev;
 	int		key;
@@ -26,5 +21,4 @@ public:
 
 #endif
 
-// ---  End of File ---
 
